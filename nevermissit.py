@@ -6,7 +6,7 @@ print("Thanks for Downloading!")
 print("Never miss iledopapiezowej again with this program! It will open the site at 21:36 so you have time to prepare yourself.")
 print("===========================")
 def check_time_and_open_website():
-    target_time = datetime.time(21, 37) 
+    target_time = datetime.time(21, 36) 
     while True:
         current_time = datetime.datetime.now().time()
         print('The time is - ',current_time)
